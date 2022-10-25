@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best cars</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assignment3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    
+  </head>
+
+  <body class="whole">
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navShad navbar-expand bg-danger">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand animate__animated animate__tada"
+          href="https://www.globalbrandsmagazine.com/car-brands-top-20-in-the-world/#:~:text=CAR%20BRANDS%20%E2%80%93%20TOP%2020%20IN%20THE%20WORLD,Porsche%20...%208%208.%20Lexus%20...%20More%20items"
+          target="_blank"
+        >
+          <img class ="manual" src="Images/logo.jpg" "alt="">
+        </a>
+
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px"
+        >
+          <li class="nav-item animate__animated animate__backInDown">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://www.wonderslist.com/top-10-best-cars-in-the-world/#:~:text=Top%2010%20Best%20Cars%20in%20The%20World%201,...%208%208.%20Maybach%20Landaulet%20...%20More%20items"
+              target="_blank"
+              >Top 10 cars
+            </a>
+          </li>
+          <li class="nav-item animate__animated animate__backInDown">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://www.javatpoint.com/top-10-laptops#:~:text=Top%2010%20Laptops%201%201.%20Apple%20MacBook%20Air,8.%20Mircosoft%20Surface%20Pro%207%20...%20More%20items"
+              target="_blank"
+              >Top 10 Laptops
+            </a>
+          </li>
+          <li class="nav-item animate__animated animate__lightSpeedInRight">
+            <a
+              class="btn btn-dark"
+              href="https://www.etsy.com/market/car_laptop_phone"
+              role="button"
+              target="_blank"
+              >Explore</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END -->
+
+    <!-- Image Slider / Carousal -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide myMargin1"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Images/Ferrari img 1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ferrari 812 Superfast</h5>
+            <p>a front mid-engine, rear-wheel-drive grand tourer produced by Italian sports car manufacturer Ferrari that made its debut at the 2017 Geneva Motor Show. </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/lamborghini urus img 2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5> 2021 Lamborghini Urus Graphite Capsule</h5>
+            <p>
+                The new Lamborghini Urus Graphite Capsule invites you to unlock new roads of bold elegance and individuality.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/marcedezben img 3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mercedes-Benz G-Class</h5>
+            <p>A favorite of hip-hop artists, the Mercedes G-Class is a modern SUV with a distinct square shape.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/Bmw img 4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block tchange">
+            <h5>	G32 GT (2016-2019)	gran turismo
+            </h5>
+            <p>The G32 6 Series GT Gran Turismo model is a Turismo car manufactured by BMW, with 5 doors and 5 seats, sold new from year 2017 until 2020</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END -->
+
+    <!-- Card -->
+    <div class="myMargin1 row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/laptop 1.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b> Dell XPS 13 OLED (2021)</b></h5>
+            <p class="card-text">
+                The Dell XPS 13 OLED is what happens when the best laptop meets the latest display technology.
+              <a href="https://www.cnet.com/tech/computing/dell-xps-13-oled-2021-review-beautiful-design-topped-with-a-gorgeous-display/" target="_blank"
+                >Dell XPS 13 OLED (9310) review</a
+              >. REASONS TO BUY
+              +Breathtaking 3.5K OLED display
+              +Striking, ultra-thin design
+              +Fast performance.
+            </p>
+            <p>
+              <i>Price: $58.55</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/laptop img 2.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Asus ZenBook 17 Fold OLED</b></h5>
+            <p class="card-text">
+                The Asus Zenbook 17 Fold OLED is a multi-pronged solution to work and play thanks to Asus’ proprietary hinge and a foldable OLED display created by both Asus and Intel. 
+              <a href="https://www.pcmag.com/reviews/asus-zenbook-17-fold-oled" target="_blank"
+                >Asus ZenBook 17 Fold OLED review</a
+              >. REASONS TO BUY
+              +Killer AMD and Nvidia performance
+              +Amazing battery life
+              +Elegant Moonlight White design.
+            </p>
+            <p>
+              <i>Price: €84.99</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/laptop 3 img 3.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Microsoft Surface Laptop Studio</b></h5>
+            <p class="card-text">
+                The Microsoft Surface Laptop Studio is an excellent choice for creative professionals.It can be transformed into a digital drawing board, but it does so without compromising the standard laptop mode.
+              <a href="https://www.laptopmag.com/reviews/microsoft-surface-laptop-studio-review" target="_blank"
+                >Microsoft Surface Laptop Studio review</a
+              >. REASONS TO BUY
+              +Speedy performance
+              +Long battery life
+              +Built-in stylus slot.
+            </p>
+            <p>
+              <i>Price: £60.21</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/Phone 1 img.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>iPhone 14</b></h5>
+            <p class="card-text">
+                The iPhone 14 is a capable smartphone with a seriously snappy CPU, lovely screen, and good cameras. It pales in comparison to the iPhone 14 Pro, but then you’re also saving $200 / £250 / AU$350. If you’re not looking for a big screen on a budget (for that, see the new iPhone 14 Plus), this solid, if unspectacular iPhone – with a couple of really cool next-gen features that you may never use – might be for you.
+            </p>
+            <p>
+              <i>Price: $69.77</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/Phone 2 img.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Galaxy S21 FE 5G</b></h5>
+            <p class="card-text">
+                Samsung's Galaxy S21 FE is a new invention that aims to give the finest possible experience in 16.29cm (6.4") screen size. Galaxy S21 FE features are incredible to collect beautiful memories with the classiest design. This phone comes in beautiful shades of radiant olive, lavender, classic achromatic graphite, and white. Galaxy S21 FE offers you a pro-grade camera for incredibly realistic photos in a 12MP ultra-wide camera, 12MP wide-angle camera, 8MP telephoto camera, 32MP selfie camera, and videos to capture every detail.
+            </p>
+            <p>
+              <i>Price: $85</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="Images/Phone img 3.webp" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Samsung Galaxy S22 Ultra</b></h5>
+            <p class="card-text">
+                The Samsung Galaxy S22 Ultra is seemingly designed to be the ultimate Android phone – or at the very least the ultimate Samsung phone – and it succeeds at both, by building both on the impressive Samsung Galaxy S21 Ultra, and taking the essence of the Samsung Galaxy Note range.
+                The other highlight is the S Pen stylus, which for this model is included with the phone, and also has its own slot, just like on a Galaxy Note. It’s a useful feature for productivity and creativity, while beyond that the Galaxy S22 Ultra has a superb screen, oodles of power, and more tech and features than you’ll probably ever use.
+            </p>
+            <p>
+              <i>Price: $110.99</i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Footer -->
+    <footer
+      class="bg-success text-center text-light text-lg-start myMargin2 myImg myHeight"
+    >
+      <div class="text-center p-3">
+        © 2022 Copyright:
+        <a class="text-light" href="https://github.com/Mehenazesha" target="_blank"
+          >
+          Mehenazesha</a
+        >
+        <img src="Images/carlogo.jpg" alt="" />
+        <br />
+        Contact Info:
+        <a href="https://web.facebook.com/esha.rahman.1612/" target="_blank"
+          ><img src="./Images/facebook.png" alt=""
+        /></a>
+      </div>
+    </footer>
+    <!-- END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
